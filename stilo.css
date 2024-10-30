@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+body {
+    background: linear-gradient(90deg, #f4d03f94, #fcff3450);
+    color: #0f0e0e;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Montserrat", serif;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    z-index: 4;
+    
+}
+
+
+.tag {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;    
+}
+
+
+li a {
+    height: 20px;
+    transition: all 400ms ease 0ms;
+    color: #0f0e0e;
+    text-decoration: none;
+    top: 10px;
+
+}
+
+li a:hover {
+    color: #ee7112;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.4rem;
+}
+.baner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    transform: translateY(-3%); 
+}
+
+.insta{
+    position: absolute;
+    left: 26%;
+   transform: translateY(640%)
+}
+.menu{
+    display: flex;
+    width: 20%;
+    left: 79%;
+    transform: translateY(-60%);
+    position:relative;
+    list-style: none;
+    justify-content: space-between;   
+    
+}
+
+.img-logo1 {
+    width: 25%;   
+}
+.img-Boneca {
+    width: 70px;
+}
+
+
+
+.imagem-carrossel{
+    height: 200px;
+}
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom: 1;
+    left: 10px;
+
+}
+
+
+.titulo-carrossel{
+    color: rgb(14, 10, 3);
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.redes ul{
+    display: flex;
+    
+    justify-content: center;
+    list-style: none;
+}
+.redes ul a{
+    display: block;
+    padding: 10px;
+}
+.redes ul li a img{
+    max-width: 150px;
+    width:50px;
+    height: 50px;
+    left: 30%;
+   transform: translateY(570%)
+   
+}
+
+
+
+.final{
+    position: absolute;
+    left: 30%;
+   transform: translateY(800%)
+   
+    
+    
+          
+}
